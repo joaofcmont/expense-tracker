@@ -49,4 +49,9 @@ public class Expense {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "# " + id + "  " + date + "  " + description + "       " + amount;
+    }
 }
